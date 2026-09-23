@@ -46,9 +46,9 @@ const About = () => {
                 {personalInfo.aboutText}
               </p>
 
-              <div className="flex flex-wrap gap-2 mb-12">
+              <ul className="flex flex-wrap gap-2 mb-12 list-none p-0 m-0">
                 {personalInfo.interests.map((interest, i) => (
-                  <motion.span
+                  <motion.li
                     key={i}
                     initial={{ opacity: 0, scale: 0.95 }}
                     whileInView={{ opacity: 1, scale: 1 }}
@@ -57,9 +57,9 @@ const About = () => {
                     className="px-4 py-2 text-sm font-medium text-[var(--color-text-secondary)] bg-[var(--color-bg-subtle)] rounded-full border border-[var(--color-border-subtle)]"
                   >
                     {interest}
-                  </motion.span>
+                  </motion.li>
                 ))}
-              </div>
+              </ul>
 
               {/* Grid for Cyber Learning and Strengths */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 pt-8 border-t border-[var(--color-border-subtle)]">
