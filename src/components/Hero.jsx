@@ -49,9 +49,20 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
             >
-              <p className="text-lg text-[var(--color-text-secondary)] leading-relaxed mb-10 max-w-lg">
+              <p className="text-lg text-[var(--color-text-secondary)] leading-relaxed mb-6 max-w-lg">
                 {t('heroSubtext')}
               </p>
+
+              {/* SEO content – navigasi internal */}
+              <nav aria-label="Navigasi cepat" className="mb-6">
+                <ul className="flex flex-wrap gap-3 text-xs text-[var(--color-text-muted)] list-none p-0 m-0">
+                  <li><a href="#about" className="hover:text-[var(--color-accent)] transition-colors underline underline-offset-2">Tentang Saya</a></li>
+                  <li><a href="#skills" className="hover:text-[var(--color-accent)] transition-colors underline underline-offset-2">Keahlian</a></li>
+                  <li><a href="#experience" className="hover:text-[var(--color-accent)] transition-colors underline underline-offset-2">Pengalaman</a></li>
+                  <li><a href="#projects" className="hover:text-[var(--color-accent)] transition-colors underline underline-offset-2">Proyek</a></li>
+                  <li><a href="#contact" className="hover:text-[var(--color-accent)] transition-colors underline underline-offset-2">Kontak</a></li>
+                </ul>
+              </nav>
 
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-10">
                 <a
