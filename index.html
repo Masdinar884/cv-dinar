@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -9,9 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800;900&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
     
     <!-- Primary Meta Tags -->
-    <title>Dinar Ramadani – Web Developer & Cybersecurity</title>
-    <meta name="title" content="Dinar Ramadani – Web Developer & Cybersecurity" />
-    <meta name="description" content="Portfolio Dinar Ramadani Adi Pratama, mahasiswa Teknik Komputer dengan keahlian web development (React, PHP, JavaScript) dan cybersecurity. Tersedia untuk proyek freelance dan kolaborasi." />
+    <title>Dinar Ramadani – Web Developer &amp; Cybersecurity</title>
+    <meta name="title" content="Dinar Ramadani – Web Developer &amp; Cybersecurity" />
+    <meta name="description" content="Portfolio Dinar Ramadani – mahasiswa Teknik Komputer, web developer (React, PHP, JS) &amp; cybersecurity enthusiast. Terbuka untuk kolaborasi." />
     <meta name="keywords" content="Dinar Ramadani, web developer, cybersecurity, React, JavaScript, PHP, Teknik Komputer, UMUKA, portfolio" />
     <meta name="author" content="Dinar Ramadani Adi Pratama" />
     <meta name="robots" content="index, follow" />
@@ -20,18 +20,183 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://masdinar884.github.io/cv-dinar/" />
-    <meta property="og:title" content="Dinar Ramadani – Web Developer & Cybersecurity" />
-    <meta property="og:description" content="Portfolio Dinar Ramadani Adi Pratama, mahasiswa Teknik Komputer dengan keahlian web development dan cybersecurity." />
+    <meta property="og:title" content="Dinar Ramadani – Web Developer &amp; Cybersecurity" />
+    <meta property="og:description" content="Portfolio Dinar Ramadani – mahasiswa Teknik Komputer, web developer &amp; cybersecurity enthusiast." />
     <meta property="og:image" content="https://masdinar884.github.io/cv-dinar/profile.jpg" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Dinar Ramadani – Web Developer & Cybersecurity" />
-    <meta name="twitter:description" content="Portfolio Dinar Ramadani Adi Pratama, mahasiswa Teknik Komputer dengan keahlian web development dan cybersecurity." />
-    
+    <meta name="twitter:title" content="Dinar Ramadani – Web Developer &amp; Cybersecurity" />
+    <meta name="twitter:description" content="Portfolio Dinar Ramadani – mahasiswa Teknik Komputer, web developer &amp; cybersecurity enthusiast." />
+
+    <style>
+      /* Static SEO content hidden after React mounts */
+      #seo-static { font-family: sans-serif; max-width: 900px; margin: 0 auto; padding: 24px; color: #111; }
+      #seo-static h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+      #seo-static h2 { font-size: 1.25rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+      #seo-static ul { padding-left: 1.5rem; margin: 0.5rem 0 1rem; }
+      #seo-static li { margin-bottom: 0.25rem; }
+      #seo-static a { color: #0070f3; }
+      #seo-static nav ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; }
+      /* Hide static content once React root has children */
+      #root:not(:empty) ~ #seo-static { display: none; }
+    </style>
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Static SEO content: visible to crawlers, hidden after React renders -->
+    <div id="seo-static" aria-hidden="true">
+
+      <header>
+        <h1>Dinar Ramadani Adi Pratama – Web Developer &amp; Cybersecurity Enthusiast</h1>
+        <p>
+          Saya adalah mahasiswa S1 Teknik Komputer di Universitas Muhammadiyah Karanganyar (UMUKA)
+          dengan latar belakang Rekayasa Perangkat Lunak. Saya memiliki ketertarikan kuat pada
+          web development dan cybersecurity, serta senang mempelajari teknologi melalui praktik
+          langsung dan proyek nyata. Saya juga berpengalaman dalam membuat dan mengembangkan kelas
+          pembelajaran Cyber Security untuk pemula. Saya mudah beradaptasi, memiliki rasa ingin
+          tahu yang tinggi, dan terus berusaha mengembangkan kemampuan teknis saya.
+        </p>
+        <nav aria-label="Navigasi utama">
+          <ul>
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#skills">Keahlian</a></li>
+            <li><a href="#experience">Pengalaman</a></li>
+            <li><a href="#projects">Proyek</a></li>
+            <li><a href="#contact">Kontak</a></li>
+            <li><a href="https://github.com/masdinar884" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/dinar-ramadani" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="about">
+          <h2>Tentang Saya</h2>
+          <p>
+            Nama saya Dinar Ramadani Adi Pratama, seorang mahasiswa aktif S1 Teknik Komputer di
+            UMUKA, Karanganyar, Jawa Tengah. Saya memiliki passion di bidang web development dan
+            cybersecurity. Saya percaya bahwa belajar terbaik dilakukan melalui praktik langsung,
+            eksperimen, dan proyek nyata yang memberikan dampak.
+          </p>
+          <p>Minat dan ketertarikan saya meliputi:</p>
+          <ul>
+            <li>Web Development – membangun antarmuka modern menggunakan React, Vite, dan Tailwind CSS</li>
+            <li>Cybersecurity – mempelajari keamanan aplikasi web, OWASP, dan penggunaan Burp Suite</li>
+            <li>Software Development – mengembangkan solusi perangkat lunak yang efisien</li>
+            <li>Game Development – eksplorasi Roblox Studio dan logika pemrograman Lua</li>
+            <li>Teknologi – selalu mengikuti perkembangan teknologi terkini</li>
+          </ul>
+        </section>
+
+        <section id="skills">
+          <h2>Keahlian Teknis</h2>
+          <p>
+            Berikut adalah teknologi dan tools yang saya kuasai dan gunakan dalam pengembangan
+            proyek sehari-hari:
+          </p>
+
+          <h2>Web Development</h2>
+          <ul>
+            <li>HTML &amp; CSS – fondasi pembangunan web yang kuat</li>
+            <li>JavaScript – scripting interaktif untuk antarmuka dinamis</li>
+            <li>React &amp; Vite – framework frontend modern dan cepat</li>
+            <li>Tailwind CSS – utility-first CSS framework</li>
+            <li>PHP – scripting sisi server untuk aplikasi web</li>
+          </ul>
+
+          <h2>Cybersecurity</h2>
+          <ul>
+            <li>Burp Suite – pengujian kerentanan aplikasi web</li>
+            <li>Dasar Cybersecurity – konsep keamanan fundamental</li>
+            <li>Dasar OSINT – open-source intelligence</li>
+            <li>Web Security – HTTP, Authentication, CSRF protection</li>
+          </ul>
+
+          <h2>Tools &amp; Environment</h2>
+          <ul>
+            <li>Linux / WSL – lingkungan Unix-like untuk pengembangan</li>
+            <li>Git &amp; GitHub – version control dan kolaborasi</li>
+            <li>Docker – containerisasi aplikasi</li>
+            <li>MySQL &amp; MongoDB – manajemen basis data</li>
+          </ul>
+        </section>
+
+        <section id="experience">
+          <h2>Pengalaman</h2>
+          <p>
+            Meskipun saya masih berstatus mahasiswa aktif, saya telah mengembangkan berbagai
+            proyek pribadi dan memiliki pengalaman di bidang berikut:
+          </p>
+          <ul>
+            <li>Membuat dan mengelola kelas pembelajaran Cyber Security untuk pemula</li>
+            <li>Menyusun materi pembelajaran tentang dasar keamanan aplikasi web</li>
+            <li>Membimbing proses belajar melalui praktik serta lab yang legal dan aman</li>
+            <li>Mengembangkan berbagai proyek web menggunakan HTML, CSS, JavaScript, PHP, dan React</li>
+            <li>Eksplorasi dan eksperimen dengan teknologi database MySQL dan MongoDB</li>
+          </ul>
+        </section>
+
+        <section id="projects">
+          <h2>Proyek Unggulan</h2>
+          <p>
+            Berikut adalah beberapa proyek yang pernah saya kerjakan sebagai bagian dari
+            pembelajaran dan eksplorasi teknologi:
+          </p>
+          <ul>
+            <li>
+              <strong>Cyber Crime Map Indonesia</strong> – Konsep website bergaya Security
+              Operations Center (SOC) untuk memvisualisasikan informasi mengenai insiden dan
+              kejahatan siber di Indonesia, dibangun dengan React dan JavaScript.
+            </li>
+            <li>
+              <strong>Sistem Pendeteksi Percobaan Login Mencurigakan</strong> – Rancangan sistem
+              untuk mendeteksi aktivitas login yang mencurigakan pada aplikasi web, menggunakan
+              PHP, MySQL, dan konsep Web Security.
+            </li>
+            <li>
+              <strong>Game Development Exploration</strong> – Eksplorasi Roblox Studio untuk
+              mengembangkan game sebagai proyek pribadi guna mengasah logika pemrograman dengan
+              bahasa Lua.
+            </li>
+          </ul>
+        </section>
+
+        <section id="contact">
+          <h2>Kontak &amp; Informasi</h2>
+          <p>
+            Saya terbuka untuk peluang kolaborasi, proyek freelance, maupun diskusi seputar
+            teknologi. Jangan ragu untuk menghubungi saya melalui:
+          </p>
+          <ul>
+            <li>Email: <a href="mailto:masdinar884@gmail.com">masdinar884@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/masdinar884" target="_blank" rel="noopener noreferrer">github.com/masdinar884</a></li>
+            <li>WhatsApp: <a href="https://wa.me/6282181987591" target="_blank" rel="noopener noreferrer">0821-8198-7591</a></li>
+            <li>Instagram: <a href="https://www.instagram.com/khairani_ram4d4ni" target="_blank" rel="noopener noreferrer">@khairani_ram4d4ni</a></li>
+            <li>Lokasi: Cangakan, Karanganyar, Jawa Tengah</li>
+          </ul>
+        </section>
+      </main>
+
+    </div>
+    <!-- End static SEO content -->
+
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // Hide static SEO content as soon as React mounts
+      document.addEventListener('DOMContentLoaded', function() {
+        var observer = new MutationObserver(function() {
+          var root = document.getElementById('root');
+          var seo = document.getElementById('seo-static');
+          if (root && root.children.length > 0 && seo) {
+            seo.style.display = 'none';
+            observer.disconnect();
+          }
+        });
+        var root = document.getElementById('root');
+        if (root) observer.observe(root, { childList: true });
+      });
+    </script>
   </body>
 </html>
