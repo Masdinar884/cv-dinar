@@ -22,6 +22,39 @@ const Footer = () => {
   return (
     <footer className="border-t border-[var(--color-border-subtle)] bg-[var(--color-bg-elevated)]/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+
+        {/* Footer Navigation */}
+        <nav aria-label="Footer navigation" className="mb-10 pb-8 border-b border-[var(--color-border-subtle)]">
+          <ul className="flex flex-wrap justify-center gap-x-8 gap-y-3 list-none p-0 m-0">
+            <li><a href="#home" className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors">Home</a></li>
+            <li><a href="#about" className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors">About</a></li>
+            <li><a href="#skills" className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors">Skills</a></li>
+            <li><a href="#experience" className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors">Experience</a></li>
+            <li><a href="#projects" className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors">Projects</a></li>
+            <li><a href="#contact" className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors">Contact</a></li>
+            <li>
+              <a
+                href={personalInfo.socials.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors"
+              >
+                GitHub ↗
+              </a>
+            </li>
+            <li>
+              <a
+                href={personalInfo.socials.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors"
+              >
+                LinkedIn ↗
+              </a>
+            </li>
+          </ul>
+        </nav>
+
         <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
           
           <div className="text-center sm:text-left">
