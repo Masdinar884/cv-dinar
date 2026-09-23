@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://masdinar884.github.io/cv-dinar/sitemap.xml
